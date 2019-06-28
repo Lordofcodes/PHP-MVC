@@ -1,0 +1,32 @@
+[28-Jun-2019 05:49:51 Europe/Berlin] Uncaught exception: Exception'with messageURL doesn't exist'
+Stack trace:#0 C:\xampp\htdocs\mvc\public\index.php(55): Core\Router->dispatch('sdfsd')
+#1 {main}
+Thrown in C:\xampp\htdocs\mvc\Core\Router.phpon Line : 76
+[28-Jun-2019 05:49:52 Europe/Berlin] Uncaught exception: Exception'with messageURL doesn't exist'
+Stack trace:#0 C:\xampp\htdocs\mvc\public\index.php(55): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in C:\xampp\htdocs\mvc\Core\Router.phpon Line : 76
+[28-Jun-2019 10:04:30 Europe/Berlin] Uncaught exception: Exception'with messageURL doesn't exist'
+Stack trace:#0 C:\xampp\htdocs\mvc\public\index.php(55): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in C:\xampp\htdocs\mvc\Core\Router.phpon Line : 76
+[28-Jun-2019 10:04:41 Europe/Berlin] Uncaught exception: Exception'with messageURL doesn't exist'
+Stack trace:#0 C:\xampp\htdocs\mvc\public\index.php(55): Core\Router->dispatch('asdfasdf')
+#1 {main}
+Thrown in C:\xampp\htdocs\mvc\Core\Router.phpon Line : 76
+[28-Jun-2019 10:25:03 Europe/Berlin] Uncaught exception: Exception'with messageURL doesn't exist'
+Stack trace:#0 C:\xampp\htdocs\mvc\public\index.php(55): Core\Router->dispatch('asdfsd')
+#1 {main}
+Thrown in C:\xampp\htdocs\mvc\Core\Router.phpon Line : 76
+[28-Jun-2019 10:26:02 Europe/Berlin] Uncaught exception: Twig\Error\LoaderError'with messageUnable to find template "Home/inde.html" (looked into: ../App/Views).'
+Stack trace:#0 C:\xampp\htdocs\mvc\vendor\twig\twig\src\Loader\FilesystemLoader.php(150): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.html')
+#1 C:\xampp\htdocs\mvc\vendor\twig\twig\src\Environment.php(299): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.html')
+#2 C:\xampp\htdocs\mvc\vendor\twig\twig\src\Environment.php(381): Twig\Environment->getTemplateClass('Home/inde.html')
+#3 C:\xampp\htdocs\mvc\vendor\twig\twig\src\Environment.php(359): Twig\Environment->loadTemplate('Home/inde.html')
+#4 C:\xampp\htdocs\mvc\vendor\twig\twig\src\Environment.php(318): Twig\Environment->load('Home/inde.html')
+#5 C:\xampp\htdocs\mvc\Core\View.php(27): Twig\Environment->render('Home/inde.html', Array)
+#6 C:\xampp\htdocs\mvc\App\Controllers\Home.php(14): Core\View::renderTemplate('Home/inde.html', Array)
+#7 C:\xampp\htdocs\mvc\Core\Router.php(66): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\mvc\public\index.php(55): Core\Router->dispatch('')
+#9 {main}
+Thrown in C:\xampp\htdocs\mvc\vendor\twig\twig\src\Loader\FilesystemLoader.phpon Line : 250
